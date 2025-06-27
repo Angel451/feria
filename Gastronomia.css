@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f3f3f3;
+  }
+  
+  header {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  section#producto {
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  section#producto img {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .descripcion {
+    max-width: 500px;
+  }
+  
+  #comprar {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  footer {
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+    flex: 2;
+  }
+  
+  .producto {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+  }
+  
+  .producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .producto button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #27ae60;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .producto button:hover {
+    background: #219150;
+  }
+  
+  .carrito {
+    width: 100%;
+    padding: 1rem;
+    background: #ecf0f1;
+  }
+  
+  .carrito ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+  }
+  
+  nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #000000;
+    transition: width 0.3s ease;
+  }
+  
+  nav a:hover {
+    color:  #8400ff;
+  }
+  
+  nav a:hover::after {
+    width: 100%;
+  }

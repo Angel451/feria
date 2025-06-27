@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  background-color: aquamarine;
+  }
+
+  .botones{
+    padding-top: 350;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+button{
+    font-family: 'Berlin Sans FB', Impact, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    height: 50px;
+    border-radius: 30px;
+    padding:  10px 0px;
+    width: 230px;
+    background-color: white;
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.83);
+    font-weight: 500;
+    transition: 350ms;
+    margin-top: 40px;
+}
+
+button:focus{
+    outline:none;
+}
+
+button:hover{
+    transform: translate(0, -15px);
+    color: red;
+}
